@@ -201,6 +201,9 @@ export default function Navbar() {
                      Kontak BBIHPMM
                   </li>
                </ul>
+               <div className="flex-1 absolute right-0 px-4">
+                  <Link to="/authentication/login" className="font-medium text-blue-600 hover:underline">Login</Link>
+               </div>
             </div>
          </nav>
          <Sidenav isOpen={isSidenavOpen} onClose={() => setIsSidenavOpen(false)} />
