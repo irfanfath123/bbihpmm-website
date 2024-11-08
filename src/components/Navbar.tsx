@@ -76,6 +76,9 @@ export default function Navbar() {
                             onClick={() => navigate('/')}
                         />
                     </div>
+                    <div className="flex-1 absolute right-0 px-4">
+                        <Link to="/authentication/login" className="font-medium text-blue-600 hover:underline">Login</Link>
+                    </div>
                 </div>
                 <div className="border-y-[1px] shadow-sm hidden md:flex md:px-28 relative items-center">
                     <ul className="flex flex-wrap justify-between items-center relative w-full max-w-6xl m-auto">
@@ -197,9 +200,6 @@ export default function Navbar() {
                             Kontak BBIHPMM
                         </li>
                     </ul>
-                    <div className="flex-1 absolute right-0 px-4">
-                        <Link to="/authentication/login" className="font-medium text-blue-600 hover:underline">Login</Link>
-                    </div>
                 </div>
             </nav>
             <Sidenav isOpen={isSidenavOpen} onClose={() => setIsSidenavOpen(false)} />
