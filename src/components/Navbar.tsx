@@ -198,7 +198,7 @@ export default function Navbar() {
                      Berita
                   </li>
                   <li className="group relative font-semibold cursor-pointer text-sm text-gray-900 p-4">
-                     Kontak BBIHPMM
+                     Kontak BBIHPMM123
                   </li>
                </ul>
             </div>
