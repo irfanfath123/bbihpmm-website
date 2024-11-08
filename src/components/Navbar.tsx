@@ -78,7 +78,7 @@ export default function Navbar() {
                </div>
                <div className="px-4 justify-end text-sm space-x-2">
                   <a href="/authentication/login" className="font-medium text-blue-600 px-6 py-1 border border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300">Login</a>
-                  <a href="/authentication/login" className="font-medium px-4 py-1 border border-blue-600 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300">Register</a>
+                  <a href="/authentication/register" className="font-medium px-4 py-1 border border-blue-600 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300">Register</a>
                </div>
             </div>
             <div className="border-y-[1px] shadow-sm hidden md:flex md:px-28 relative items-center">
